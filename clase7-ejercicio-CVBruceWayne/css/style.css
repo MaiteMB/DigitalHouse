@@ -1,0 +1,41 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    background-color: #E6E6E6;
+    width: 1440;
+    height: 188px;
+    text-align: center;
+}
+.logo{
+    width: 100px;
+    height: 146px;
+    margin-top: 15px;
+}
+main{
+    margin-top: 150px;
+}
+h1{
+    background-color: #C4C4C4;
+    color: #005677;
+}
+h2{
+    background-color: #C4C4C4;
+    color: #005677;
+    font-size: 20px;
+   
+}
+.lista{
+    list-style-type: none;
+}
+footer{
+    background-color: #005677;
+    color: #fff;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+     
+}
+.logo-pie{
+    margin-left: 10px;
+}
