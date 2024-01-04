@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: floralwhite;
+}
+
+header {
+    background-color: #f8f8f8; 
+    padding: 15px 0;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+.logo {
+    max-width: 100%; 
+}
+nav li {
+    display: inline-block; 
+    margin: 0 15px; 
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px; 
+}
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+.banner {
+    width: 100%;
+    max-height: 500px; 
+    display: block;
+}
+.titulo-lemon{
+    text-align: center;
+    font-size: 30px;
+}
+p {
+    color: #333; /* Color del texto */
+    font-size: 14px; /* Tamaño de la fuente */
+    line-height: 1.5; /* Altura de línea */
+    margin-bottom: 10px; /* Margen inferior */
+    width: 90%;
+    text-align: justify;
+    margin-left: 60px;
+}
+.titulos{
+    margin-left: 15px;
+}
+.ingredientes {
+    display: flex;
+    justify-content: space-between; /* Espacio uniforme entre las columnas */
+    margin-left: 60px;
+}
+
+.columna {
+    flex: 1; 
+    margin-right: 20px; 
+}
+
+.titulos-ingredientes {
+    font-size: 20px;
+}
+
+.items {
+    font-size: 14px;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.items li {
+    margin-bottom: 5px;
+}
+
+.items-instrucciones {
+    margin-bottom: 15px; 
+    line-height: 2; 
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+footer{
+    text-align: center;
+    background: url(../img/surtido-tortas.jpg);
+    background-size: cover;
+    padding:20px;
+}
+
+.copyright{
+    color:black;
+    font-size: 14px;
+    margin:15px;
+    text-align: center;
+}
