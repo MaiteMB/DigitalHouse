@@ -1,0 +1,23 @@
+header{
+    background-color: #222222;
+    color: white;
+    padding: 15px;
+}
+.inicio{
+    width: 1024px;
+    height: 100px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-around;
+    align-items: left; 
+}
+.pizza{
+    color: green;
+}
+.front{
+color: red;
+}
+
+.lista{
+    list-style-type: none;
+}
