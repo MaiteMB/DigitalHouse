@@ -1,0 +1,92 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;   
+}
+.descuentos{
+    margin: 0;
+    padding: 15px 10px;
+    background-color: #1CD1B0 ;
+    height: 38px;
+}
+.heroes{
+    background-color: #00669F;
+    box-shadow: 10px 5px 10px black;
+    height: 101px;
+    padding: 25px 25px 0;
+    font-size: 1.5rem;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+    width: 1080px;
+    height: 600px;
+    margin: 0 auto;
+}
+.box{
+    background-color: #F3F3F3 ;
+    height: 530px;
+    width: 300px;
+    position: relative;
+    border-radius: 20px;  
+    margin: 30px 20px;
+}
+.header-box{
+    width: 100%;
+}
+.heart{
+    margin-top: 1.7rem;
+    height: 26px;
+    width: 30px;
+    transform: translate(50%, -50%);
+    position: absolute;
+  }
+.faces{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 130px;
+    margin: 0 auto;
+    text-align: center;
+}
+h2{
+    margin-top: 80px;
+    text-align: center;
+}
+p{
+    margin-top: 10px;
+    text-align: left;  
+    padding: 20px;
+}
+.btn{
+    color: white;
+    background-color: #00669F;
+    width: 128px;
+    height: 48px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.footer-container{
+    background-color: #00669F;
+    padding: 20px;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    position: relative;
+}
+.footer-text{
+    color: white;
+text-align: center;
+}
+.github{
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+}
