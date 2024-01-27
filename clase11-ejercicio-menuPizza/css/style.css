@@ -1,6 +1,5 @@
 header{
     background-color: #222222;
-    color: white;
     padding: 15px;
 }
 .inicio{
@@ -13,6 +12,9 @@ header{
 }
 .pizza{
     color: green;
+}
+.and{
+    color: white;
 }
 .front{
 color: red;
